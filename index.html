@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/colors.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+ </head>
+<body>
+  <div class="flexContainer">
+
+    <header class="header">
+      <h1 class="title">Simple, traffic-based pricing</h1>
+      <h2 class="subtitle">Sign-up for our 30-day trial.<br>No credit card required.</h2>
+    </header>
+
+    <div class="content">
+      <p class="views">NUMBER OF VIEWS</p>
+      <input type="range" class="range">
+
+      <div class="value">
+        <p class="price">PRICE GOES HERE</p>
+      </div>
+
+      <div class="container">
+        <p class="billing">Montly Billing</p>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+        <p class="billing">Yearly Billing</p>
+      </div>
+
+    </div>
+
+    <div class="features">
+      <ul class="featuresList">
+        <li class="listItem"><img src="./images/icon-check.svg"> Unlimited websites</li>
+        <li class="listItem"><img src="./images/icon-check.svg"> 100% data ownership</li>
+        <li class="listItem"><img src="./images/icon-check.svg"> Email reports</li>
+      </ul>
+
+      <input type="button" class="startButton" value="Start my trial">
+    </div>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
