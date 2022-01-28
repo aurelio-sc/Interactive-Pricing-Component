@@ -83,6 +83,11 @@ body {
   box-shadow: 0 1rem 1rem var(--primary2-soft);
 }
 
+.priceNumber{
+  font-size: 2rem;
+  color: var(--neutral6);
+  font-weight: 800;
+}
 
 .container{
   padding: 0 2rem;
