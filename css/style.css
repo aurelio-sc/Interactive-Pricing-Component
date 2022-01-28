@@ -71,6 +71,13 @@ body {
   box-shadow: 0 1rem 1rem var(--primary2-soft);
 }
 
+.range::-webkit-slider-thumb:hover{
+  background: var(--primary6);
+  background-image: url("../images/icon-slider.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .range::-moz-range-thumb{
   -moz-appearance: none;
   width: 2.5rem;
@@ -81,6 +88,20 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   box-shadow: 0 1rem 1rem var(--primary2-soft);
+}
+
+.range::-moz-range-thumb:hover{
+  background: var(--primary6);
+  background-image: url("../images/icon-slider.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.price{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
 }
 
 .priceNumber{
@@ -94,7 +115,23 @@ body {
   margin-top: 2rem;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+}
+
+.billing{
+  display: flex;
+  flex-direction: column;
   align-items: center;
+}
+
+.discount{
+  background-color: var(--primary4-soft);
+  padding: 0.1rem 0.4rem;
+  text-align: center;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--primary4);
 }
 
 .features {

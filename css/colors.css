@@ -4,7 +4,9 @@
   --primary2-soft: rgba(16, 213, 194, 0.5);
   --primary3: hsl(14, 92%, 95%);
   --primary4: hsl(15, 100%, 70%);
+  --primary4-soft: rgba(255, 140, 102, 0.2);
   --primary5: hsl(226, 100%, 87%);
+  --primary6: hsl(174, 86%, 34%);
   --neutral1: hsl(0, 0%, 100%);
   --neutral2: hsl(230, 100%, 99%);
   --neutral3: hsl(224, 65%, 95%);
